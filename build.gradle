@@ -10,6 +10,14 @@ repositories {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    implementation 'org.projectlombok:lombok:1.18.42'
+    // https://mvnrepository.com/artifact/com.github.javafaker/javafaker
+    implementation 'com.github.javafaker:javafaker:1.0.2'
+    // https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
+    implementation 'io.github.bonigarcia:webdrivermanager:6.3.3'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    implementation 'org.seleniumhq.selenium:selenium-java:4.38.0'
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
